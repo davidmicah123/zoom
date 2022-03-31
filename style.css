@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.company_name{
+    text-align: center;
+    height: 12vh;
+    font-size: 7vh;
+    color: #0a36c5;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+    float: left;
+    background-color: rgba(252, 248, 248, 1);
+}
+.collapse{
+    text-align: center;
+}
+.navbar{
+    height: 12vh;
+    font-size: 3vh;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    top: 10vh;
+}
+.navbar_links{
+    color: white;
+}
+/*section3 */
+.discover{
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.supercontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2%;
+    width: 95%;
+    grid-gap: 2%;
+    display: border-box;
+}
+.card1{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 70vh;
+    width: 100%;
+}
+.card2{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 70vh;
+    width: 100%;
+}
+.card3{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 70vh;
+    width: 100%;
+}
+.card1image1{
+    width: 100%;
+    height: 40vh;
+    border-top-right-radius: 1em;
+}
+.card2image1{
+    width: 100%;
+    height: 40vh;
+    border-top-right-radius: 1em;
+}
+.card3image1{
+    width: 100%;
+    height: 40vh;
+    border-top-right-radius: 1em;
+}
+.want{
+    font-size: 3vh;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+.did{
+    margin: 10%;
+    margin-top: 5%;
+    font-size: 3vh;
+}
+
+.your{
+    font-size: 3vh;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.last{
+    margin: 10%;
+    margin-top: 5%;
+    font-size: 3vh;
+}
+.how{
+    font-size: 3vh;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.from{
+    margin: 10%;
+    margin-top: 5%;
+    font-size: 3vh;
+}
+.learn{
+    margin-left: 10%;
+    color: #0078ca;
+
+}
+
+
+
+
+
+
+
+
+.all_content{
+    display: grid;
+    grid-template-columns: 28vw 70vw;
+    z-index: 1;
+}
+
+.sidebar{
+    width: 20vw;
+    margin-top: 25vh;
+    background: rgb(185, 178, 178);
+    height: 70vh;
+    margin-left: 2vw;
+    border-radius: 0.2em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.459);
+    position: fixed;
+    left: 0;
+}
+.categories{
+    margin-left: .5vw;
+    font-size: 3vh;
+}
+.sidebar li{
+    list-style: none;
+}
+.sidbar ul{
+    margin-top: 3vh;
+}
+.category_list{
+    margin-left: 2vw;
+}
+
+.main{
+    width: 70vw;  
+    height: 1000vh;
+    background: white;
+    margin-top: 25vh;
+    position: relative;
+    left: 24vw;
+    position: sticky;
+    padding: 2vh;
+}
+.main_top{
+    display: flex;
+    justify-content: space-between;
+}
+.available{
+    margin-top: 1vh;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+#filter{
+    width: 13vw;
+    height: 5vh;
+    border: 0;
+    background: rgb(216, 214, 214);
+}
+.sort{
+    background: rgb(216, 214, 214);
+    color: black;
+    padding: 1vh;
+    border-radius: .2em;
+}
+.sort_text{
+    font-size: 4vh;
+}
+select{
+    font-size: 4vh;
+}
+.sort_list{
+    width: 30vw;
+}
+.sort_list{
+    background-color: white;
+}
+
+.photo_display{
+    width: 25vw;
+    height: 35vh;
+    background: yellow;
+}
+.product_photo{
+    width: 22vw;
+    height: 30vh;
+    padding-left: 1.5vw;
+    padding-top: 3vh;
+}
+.price_tag{
+    padding: 1vh;
+    position: absolute;
+    left: 20vw;
+    margin-top: 1vh;
+    width: 5vw;
+    height: 5vh;
+    font-size: 3vh;
+    color: white;
+    background-color: #0a36c5;
+    border: 0;
+    border-radius: .2em;
+}
+
+
+
+
+#product_name{
+    font-size: 3.7vh;
+}
+.product_cost{
+    font-size: 3vh;
+}
+.removed_percentage{
+    color: red;
+    font-size: 3vh;
+    
+}
