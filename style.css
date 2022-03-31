@@ -140,7 +140,7 @@
 .sidebar{
     width: 20vw;
     margin-top: 25vh;
-    background: rgb(185, 178, 178);
+    background: rgb(235, 226, 226);
     height: 70vh;
     margin-left: 2vw;
     border-radius: 0.2em;
@@ -164,9 +164,17 @@
 
 .main{
     width: 70vw;  
-    height: 1000vh;
     background: white;
     margin-top: 25vh;
+    position: relative;
+    left: 24vw;
+    position: sticky;
+    padding: 2vh;
+}
+.main2{
+    width: 70vw;  
+    background: white;
+    margin-top: 5vh;
     position: relative;
     left: 24vw;
     position: sticky;
@@ -235,14 +243,18 @@ select{
 
 
 
-#product_name{
-    font-size: 3.7vh;
+.view_btn{
+    text-align: center;
+    margin-right: 2vw;
 }
-.product_cost{
-    font-size: 3vh;
-}
-.removed_percentage{
-    color: red;
-    font-size: 3vh;
-    
+.view_all{
+    border: 0;
+    margin: 0 auto;
+    background-color: #0078ca;
+    padding: 1vh;
+    margin-top: 3vh;
+    font-weight: bolder;
+    color: white;
+    border-radius: 0.2em;
+
 }
