@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    overflow-x: hidden;
+}
 .company_name{
     text-align: center;
     height: 12vh;
@@ -39,10 +42,11 @@
 .supercontainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 2%;
-    width: 95%;
-    grid-gap: 2%;
+    margin-left: 1%;
+    width: 70%;
+    grid-gap: 1vw;
     display: border-box;
+    margin-left: 8vw;
 }
 .card1{
     border: 1px solid rgba(0, 0, 0, 0.336);
@@ -50,7 +54,7 @@
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     height: 70vh;
-    width: 100%;
+    width: 25vw;
 }
 .card2{
     border: 1px solid rgba(0, 0, 0, 0.336);
@@ -58,7 +62,7 @@
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     height: 70vh;
-    width: 100%;
+    width: 25vw;
 }
 .card3{
     border: 1px solid rgba(0, 0, 0, 0.336);
@@ -66,7 +70,7 @@
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     height: 70vh;
-    width: 100%;
+    width: 25vw;
 }
 .card1image1{
     width: 100%;
@@ -131,62 +135,30 @@
 
 
 
-
-
-
-
-.product_page{
-    color: white;
-}
-.product_page:hover{
-    color: white;
-}
 .all_content{
     display: grid;
-    grid-template-columns: 28vw 70vw;
+    grid-template-columns:  1fr;
+    width: 100%;
     z-index: 1;
 }
 
-.sidebar{
-    width: 20vw;
-    margin-top: 25vh;
-    background: rgb(207, 205, 205);
-    height: 70vh;
-    margin-left: 2vw;
-    border-radius: 0.2em;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.459);
-    position: fixed;
-    left: 0;
-}
-.categories{
-    margin-left: .5vw;
-    font-size: 3vh;
-}
-.sidebar li{
-    list-style: none;
-}
-.sidbar ul{
-    margin-top: 3vh;
-}
-.category_list{
-    margin-left: 2vw;
-}
+
 
 .main{
-    width: 70vw;  
+    width: 100%;  
     background: white;
     margin-top: 25vh;
     position: relative;
-    left: 24vw;
+    left: vw;
     position: sticky;
     padding: 2vh;
 }
 .main2{
-    width: 70vw;  
+    width: 100%;  
     background: white;
     margin-top: 5vh;
     position: relative;
-    left: 24vw;
+    left: w;
     position: sticky;
     padding: 2vh;
 }
